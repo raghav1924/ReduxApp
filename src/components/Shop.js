@@ -3,7 +3,7 @@ import React from "react";
 const Shop = () => {
   return (
     <div className=" mt-4">
-      <h4>Buy Adidas Shoes for 50 Rs.</h4>
+      <h4>Deposit/Withdraw Money</h4>
       <div
         className="btn-group "
         role="group"
@@ -12,8 +12,8 @@ const Shop = () => {
         <button type="button" className="btn btn-dark px-2 py-0">
           -
         </button>
-        <button type="button" className="btn btn-secondary px-2 py-0">
-          Add to Cart
+        <button disabled type="button" className="btn btn-secondary px-2 py-0">
+          Update Balance
         </button>
         <button type="button" className="btn btn-dark px-2 py-0">
           +
