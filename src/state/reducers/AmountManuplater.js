@@ -1,4 +1,4 @@
-export default manuplater= (state=0,action)=>{
+const manuplater= (state=0,action)=>{
      if(action.type==='deposit'){
         return state + action.payload;
      }
@@ -7,3 +7,5 @@ export default manuplater= (state=0,action)=>{
      }
      else return state
 }
+
+export default manuplater;

@@ -1,5 +1,6 @@
 import { createStoreHook } from "react-redux";
-import AmountManuplater from "./reducers/AmountManuplater";
+import reducers from './reducers';
+import { applyMiddleware } from "redux";
+import thunk from "redux-thunk";
 
-
-export const store =createStoreHook(reducers)
+export const store =createStoreHook(reducers,{},applyMiddleware(thunk));
